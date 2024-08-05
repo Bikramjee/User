@@ -1,0 +1,54 @@
+/* Centering the card */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+    /* background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+     */
+     background: lightgrey;
+}
+
+/* Styling the card */
+.register-card {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background: peachpuff;
+}
+
+/* Styling the input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Styling the error messages */
+p {
+    color: red;
+    margin: -10px 0 10px;
+    font-size: 14px;
+}
+
+/* Styling the register button */
+.customBlueBtn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.customBlueBtn:hover {
+    background-color: #357ab7;
+}
